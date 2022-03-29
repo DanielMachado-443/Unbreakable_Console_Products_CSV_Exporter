@@ -10,7 +10,7 @@
 
 ## Description
 
-- This is a weird experiment source code where I think that I've covered almost any circumstances that could lead the execution to be broken while reading the user inputs. Also, it reads and creates lists of products to be exported in a .csv format. Enjoy!
+- This is a weird experimental source code where I think that I've covered almost any circumstances that could lead the execution to be broken while reading the user inputs. Also, it reads and creates lists of products to be exported in a .csv format. Enjoy!
 
 ## How to start
 
