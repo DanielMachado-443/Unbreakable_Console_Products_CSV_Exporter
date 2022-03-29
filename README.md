@@ -14,7 +14,7 @@
 
 ## How to start
 
-- In order to start the game, you must have Visual Studio installed with Windows Forms package
+- In order to start seeing the code, you'll need to have installed the Visual Studio with C# packages.
 
 ## About the code
 
