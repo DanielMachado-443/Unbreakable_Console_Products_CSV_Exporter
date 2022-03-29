@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  Winforms Product Lister
+  Unbreakable Console Products .csv Exporter
 </p>
 
 ---
