@@ -10,7 +10,7 @@
 
 ## Description
 
-- This is a Windows Forms product list maker that has a background image and two main forms as view pages, in which you can list as many products as you like. Also, it plays a pop song to make you feel better, enjoy!
+- This is a weird experiment source code where I think that I've covered almost any circumstances that could lead the execution to be broken while reading the user inputs. Also, it reads and creates lists of products to be exported in a .csv format. Enjoy!
 
 ## How to start
 
@@ -18,19 +18,13 @@
 
 ## About the code
 
-- It's a pretty simple winforms code in which we only have an entity class called Product, that contains all the products data to be used in the forms, as you can see below.
+- The code is made up of a scheme in which we ALWAYS have a try/catch (green arrow) inside of a while (red square), meaning that any triggered exception will be caught and will as well force the execution line to return to the beginning of the while. The blue arrows are showing us the Int32.TryParse method, which will reveal IF the written input is, at least, a string, otherwise it will trigger a personal exception that will cause the execution to be brought up the same way.
  
 <a title="Winforms Product Lister">
-  <img src="https://i.imgur.com/qfor7v1.png"/>
+  <img src="https://i.imgur.com/PfZy6un.png"/>
 </a>
 
-- When we fill the fields with the products data, then it's only about to pick these data up and bring them to a new Product list item that will be applied on a new form to appear over the screen
-
-<a title="Winforms Product Lister">
-  <img src="https://i.imgur.com/K3pdMeo.png"/>
-</a>
 
 ## TODO
-- In this actual version the song is not playing right, because it's within a folder that has being ignored by default on the gitignore file, so I removed this feature. Please, feel free to make it work again if you want to.
 
-- When I started this project I was wondering about the possibility to implement some kind of a CRUD within it, which could allow us to use a login system, as it is already shown on the first form. Once the user create a registry, it should be used to let the user directly into a previous or even saved list of products. 
+- I think that this code is really able to be enhanced with clarity and less lines, as well as a cleaver logic to achieve the same results, feel free to do your own version of it and share that with us.
